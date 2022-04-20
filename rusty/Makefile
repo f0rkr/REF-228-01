@@ -5,9 +5,9 @@ LIBNAME=weblib.a
 AR=ar
 FLAGS=-Wall -Werror -Wextra
 INCLUDES=includes/
-SRCS = webserv.cpp
+SRCS = rusty.cpp
 HRCS = includes/main.hpp
-OBJS = $(SRCS:.cpp=.o)
+OBJS = $(SRCS:.cppo)
 
 all: $(NAME)
 
